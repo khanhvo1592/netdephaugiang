@@ -11,7 +11,7 @@ html {
     background: linear-gradient(to bottom, #ffffff 0%, #ffcccc 100%);
 }
 img {
-    width: 40%;
+    width: 100%;
 }
 .container {
     text-align: center;
