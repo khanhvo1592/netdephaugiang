@@ -16,10 +16,26 @@ html {
 }
 
 .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     max-width: 100%;
     height: auto;
+    position: relative;
+    content: "";
 }
 
+.logo::before {
+    content: "";
+    position: absolute;
+    top: -5px; /* Điều chỉnh khoảng cách và kích thước viền blur */
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    background: url(path/to/your/image.jpg); /* Đường dẫn tới cùng một hình ảnh */
+    filter: blur(8px); /* Điều chỉnh độ mờ của viền */
+    z-index: -1;
+}
 .submit-link {
     display: inline-block;
     background-color: #007bff;
