@@ -10,7 +10,9 @@ html {
     font-family: Arial, sans-serif;
     background: linear-gradient(to bottom, #ffffff 0%, #ffcccc 100%);
 }
-
+img {
+    width: 40%;
+}
 .container {
     text-align: center;
 }
