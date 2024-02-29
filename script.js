@@ -5,7 +5,7 @@ document
 
         const subject = encodeURIComponent("Dự thi Nét đẹp phụ nữ Hậu Giang");
         const body = encodeURIComponent(
-            "[Tên của bạn]\n\n[Số điện thoại:]\n\nCơ quan:\nĐính kèm hình ảnh"
+            "[Tên của bạn]\n\n[Số điện thoại:]\n\nCơ quan:\nLưu ý: Đừng quên đính kèm ảnh dự thi"
         );
 
         const mailtoLink = `mailto:tts.hgtv@gmail.com?subject=${subject}&body=${body}`;
